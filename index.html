@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gabriel Corrêa | Portfólio</title>
+  <meta name="description" content="Portfólio moderno e profissional de Gabriel Corrêa, desenvolvedor Front-end." />
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/888/888879.png" type="image/png" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo" tabindex="0">Gabriel Corrêa</h1>
+      <nav class="nav" role="navigation" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+      <button id="btnTema" aria-label="Alternar tema claro e escuro" class="btn-tema" title="Alternar tema claro e escuro">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-label="Apresentação pessoal">
+      <div class="container hero-container">
+        <div data-aos="fade-up" class="hero-text">
+          <h2>Olá, eu sou o Gabriel 👋</h2>
+          <p>Desenvolvedor Front-end apaixonado por criar experiências digitais modernas e responsivas.</p>
+          <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre" aria-labelledby="titulo-sobre">
+      <div class="container">
+        <h2 id="titulo-sobre" data-aos="fade-right">Sobre mim</h2>
+        <p data-aos="fade-right" data-aos-delay="100">
+          Sou um profissional dedicado com experiência em SQL, Python, Power BI, HTML, CSS e JavaScript. Busco sempre aprender e entregar projetos funcionais e esteticamente atrativos.
+        </p>
+      </div>
+    </section>
+
+    <section id="habilidades" class="habilidades" aria-labelledby="titulo-habilidades">
+      <div class="container">
+        <h2 id="titulo-habilidades" data-aos="fade-left">Habilidades</h2>
+        <ul class="skills-grid" data-aos="fade-left" data-aos-delay="100">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Git & GitHub</li>
+          <li>Power BI</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Databricks</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projetos" class="projetos" aria-labelledby="titulo-projetos">
+      <div class="container">
+        <h2 id="titulo-projetos" data-aos="fade-up">Projetos</h2>
+        <div class="grid-projetos">
+          <article class="card" data-aos="zoom-in" tabindex="0">
+  <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=600&q=80" alt="Sistema ERP em PHP e MySQL" class="card-img" />
+  <div class="card-content">
+    <h3>ERP PHP + MySQL</h3>
+    <p>Sistema web completo com gerenciamento de produtos, estoque e cupons.</p>
+    <a href="https://github.com/seuusuario/erp-php" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Ver ERP PHP no GitHub">
+      GitHub &#8599;
+    </a>
+  </div>
+</article>
+
+<article class="card" data-aos="zoom-in" data-aos-delay="100" tabindex="0">
+  <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80" alt="Loja virtual Semprevelasacesas" class="card-img" />
+  <div class="card-content">
+    <h3>Semprevelasacesas</h3>
+    <p>Loja virtual de velas com HTML, CSS e JS moderno, modal e animações.</p>
+    <a href="https://seuportfolio.vercel.app/velas" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Ver Semprevelasacesas online">
+      Projeto &#8599;
+    </a>
+  </div>
+</article>
+
+<article class="card" data-aos="zoom-in" data-aos-delay="200" tabindex="0">
+  <img src="https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=600&q=80" alt="Dashboard Power BI" class="card-img" />
+  <div class="card-content">
+    <h3>Dashboard Power BI</h3>
+    <p>Dashboard interativo com KPIs financeiros, filtros e visualizações dinâmicas.</p>
+    <a href="https://github.com/seuusuario/dashboard-powerbi" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Ver Dashboard Power BI no GitHub">
+      GitHub &#8599;
+    </a>
+  </div>
+</article>
+         
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato" aria-labelledby="titulo-contato">
+      <div class="container">
+        <h2 id="titulo-contato" data-aos="fade-up">Contato</h2>
+        <p data-aos="fade-up" data-aos-delay="100">
+          Quer conversar ou fazer um projeto juntos? Me envie uma mensagem!
+        </p>
+        <a href="mailto:gabriel@email.com" class="btn btn-primary" data-aos="fade-up" data-aos-delay="200">
+          Enviar Email
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 Gabriel Corrêa. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <button id="btnTopo" aria-label="Voltar ao topo" title="Voltar ao topo">⬆️</button>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
